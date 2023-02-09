@@ -1,0 +1,64 @@
+.listContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.listwrapper{
+    width: 100%;
+    max-width:1024px;
+    display: flex;
+    gap: 20px;
+}
+
+.listSearch{
+    flex:2;
+    margin-top :30px;
+    position: sticky;
+    top:10px;
+    padding: 10px;
+
+   
+}
+.lsTitle{
+    font-size: 18px;
+    color: black;
+    
+}
+.lsCount{
+    color: black;
+}
+.stopsTitle{
+    margin-top: 30px;
+    font-size: 18px;
+    color: black;
+}
+.stopSelect{
+    display: flex;
+    justify-content: space-between;
+
+}
+.stopsRadio{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.radio{
+    gap :20px;
+   margin-top: 10px;
+}
+
+.filterCount{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+   
+}
+.filtercountNo{
+    gap :20px;
+    margin-top: 10px;
+}
+.listResult{
+    flex: 4;
+}
