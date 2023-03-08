@@ -1,12 +1,21 @@
-import React from 'react';
+import { format } from 'date-fns'
+import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
+import { faBagShopping, faBriefcase, faPlane, faSuitcaseRolling } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import Header from '../../component/header/Header';
 import Navbar from '../../component/navbar/Navbar';
 import  "./list.css";
+import SearchItem from '../../component/searchItem/SearchItem.jsx';
 
 export const List = () => {
 
-  const location = useLocation()
+  const location = useLocation();
+  const [destination,setDestination] = useState(location.state.destination)
+  const [selectDate, setSelectDate] = useState(location.state.selectDate)
+  const [options, setOptions] = useState(location.state.options)
+
+
   console.log(location);
   return (
     <div>
@@ -37,6 +46,8 @@ export const List = () => {
             </div>
           </div>
           <div className="listResult">
+            <SearchItem/>
+            <SearchItem/>
             
           </div>
         </div>

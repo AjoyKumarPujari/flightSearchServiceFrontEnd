@@ -1,0 +1,131 @@
+.listResult{
+    flex: 4;
+}
+
+.cardResult{
+    display: flex;
+    flex-direction: row;
+    padding-right: 14px;
+    padding-left: 14px;
+    border:1px solid lightgray;
+    margin-top :30px;   
+    width: 100%;
+    max-width: 1024px;
+    border-radius: 8px;
+}
+
+.cardResultLeft{
+    flex: 2;
+}
+
+.flightResult{
+    display: flex;
+    flex-direction: row;
+}
+
+.flightToResultDetails{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+.flightResultDetailsLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.flightDeptTime{
+    font-size: 14;
+    font-weight: bold;
+}
+.flightDeptDateandPlace{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    gap:5px;
+}
+.flightResultDetailsRight{
+    justify-content: flex-end;
+}
+.flightResultDetailsCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.teavelTime{
+    font-size: 12px;
+    
+}
+.stops{
+    font-size: 12px;
+    
+}
+.airlineLogo{
+    padding-top: 10px;
+    color: gray;
+}
+.logoimage{
+    max-height: 50px;
+    max-width:50px;
+}
+.cardResultRight{
+    flex: 1;
+    border-left: 1px solid lightgray;
+    padding: 14px;
+    gap:5px
+   
+}
+.luggageinfo{
+    
+   display: flex;
+   justify-content: space-between;
+}
+.bagicons{
+    display: flex;
+    gap:5px;
+    
+   
+}
+.bags{
+    position: relative;
+    right: -170px;
+    height: 20px;
+}
+.luggeageInfodesc{
+   
+   padding-top: 23px;
+   font-size: 10px;
+  
+   
+}
+.priceDetails{
+    padding-top: 30px;
+    text-align: right;
+
+
+}
+.price{
+    font-size: 20px;
+    font-weight: bold;
+}
+.priceDesc{
+    font-size: 12px;
+    color: gray;
+}
+.seeFlightButton{
+    padding-top: 20px;
+}
+.seeFlightButton>button{
+    
+    background-color: white;
+    border: 1px solid blue;
+    width: 100%;
+    height: 35px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    color:  blue;
+}
