@@ -70,8 +70,8 @@ const handleSearch = () =>{
             </div>
             
         </div>
-        {/* {type !== "list" &&
-            <> */}
+        {type !== "list" &&
+            <>
             <h1 className="headerTitle">Compare and book flights with ease</h1>
             <p className="headerDescrioption">Discover your next dream destination</p>
             <div className="headerPick">
@@ -153,8 +153,8 @@ const handleSearch = () =>{
                     <button className="headerbtn" onClick={handleSearch }>Search</button>
                 </div>
             </div>
-            {/* </>
-        }    */}
+            </>
+        }   
         </div>
     </div>
   )
